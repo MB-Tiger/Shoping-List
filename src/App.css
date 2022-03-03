@@ -1,0 +1,95 @@
+@charset "UTF-8";
+@font-face {
+  font-family: vazir-medium;
+  src: url("../public/font/Vazir-Medium.eot") format("eot"),
+    url("../public/font/Vazir-Medium.woff") format("woff"),
+    url("../public/font/Vazir-Medium.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: vazir-medium;
+}
+ul,
+ol,
+li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+.done {
+  text-decoration: line-through;
+}
+.container {
+  max-width: 1200px;
+}
+.form {
+  width: 100%;
+  background-color: #f44336;
+  padding: 30px 40px;
+  text-align: center;
+  overflow: auto;
+}
+.form input {
+  width: 25%;
+  height: 35px;
+  margin: 10px;
+  border: none;
+  padding: 5px;
+  border-radius: 2px;
+}
+.form::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+button {
+  cursor: pointer;
+  border: none;
+  color: #fff;
+  border-radius: 2px;
+}
+.form button {
+  width: 70px;
+  height: 35px;
+  border: none;
+  cursor: pointer;
+  background-color: blue;
+}
+button:hover {
+  background-color: rgb(0, 0, 209);
+  transition: all 0.3s;
+}
+.form h2 {
+  margin-bottom: 10px;
+}
+#list button {
+  float: right;
+  padding: 5px 7px;
+  margin-right: 10px;
+  vertical-align: middle;
+  background-color: rgba(2, 207, 2);
+}
+#list button:hover {
+  background-color: rgb(2, 172, 2);
+}
+#list li {
+  padding: 20px 60px;
+  font-size: 17px;
+  background-color: #eee;
+}
+#list span {
+  padding-right: 60px;
+  vertical-align: middle;
+}
+#finailPrice {
+  padding: 20px 60px;
+  font-size: 17px;
+  background-color: #eee;
+}
